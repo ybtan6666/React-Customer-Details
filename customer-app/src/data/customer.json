@@ -1,0 +1,71 @@
+{
+  "tree": [
+    {
+      "name": "USA",
+      "children": [
+        {
+          "name": "New York",
+          "children": [
+            { "name": "New York City" },
+            { "name": "Buffalo" },
+            { "name": "Albany" }
+          ]
+        },
+        {
+          "name": "Alabama",
+          "children": [{ "name": "Birmingham" }, { "name": "Montgomery" }]
+        },
+        {
+          "name": "California",
+          "children": [{ "name": "Los Angeles" }, { "name": "San Francisco" }]
+        }
+      ]
+    },
+    {
+      "name": "Canada",
+      "children": [
+        {
+          "name": "Ontario",
+          "children": [{ "name": "Toronto" }, { "name": "Ottawa" }]
+        },
+        {
+          "name": "British Columbia",
+          "children": [{ "name": "Vancouver" }, { "name": "Victoria" }]
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "children": [
+        {
+          "name": "New South Wales",
+          "children": [{ "name": "Sydney" }, { "name": "Newcastle" }]
+        },
+        {
+          "name": "Queensland",
+          "children": [{ "name": "Brisbane" }, { "name": "Gold Coast" }]
+        }
+      ]
+    }
+  ],
+
+  "customers": [
+    { "id": 1,  "name": "Thomas Hardy",      "address": "89 Chiaroscuro Rd.",  "city": "New York City", "state": "New York",         "country": "USA",       "pinCode": "10001" },
+    { "id": 2,  "name": "Maria Anders",      "address": "Obere Str. 57",       "city": "New York City", "state": "New York",         "country": "USA",       "pinCode": "10012" },
+    { "id": 3,  "name": "Fran Wilson",       "address": "C/ Araquil, 67",      "city": "Buffalo",       "state": "New York",         "country": "USA",       "pinCode": "14201" },
+    { "id": 4,  "name": "Dominique Perrier", "address": "25, rue Lauriston",   "city": "Albany",        "state": "New York",         "country": "USA",       "pinCode": "12207" },
+    { "id": 5,  "name": "Martin Blank",      "address": "Via Monte Bianco 34", "city": "Buffalo",       "state": "New York",         "country": "USA",       "pinCode": "14202" },
+    { "id": 6,  "name": "Ana Trujillo",      "address": "Avda. 2222",          "city": "Birmingham",    "state": "Alabama",          "country": "USA",       "pinCode": "35203" },
+    { "id": 7,  "name": "Antonio Moreno",    "address": "Mataderos 2312",      "city": "Montgomery",    "state": "Alabama",          "country": "USA",       "pinCode": "36104" },
+    { "id": 8,  "name": "Hanna Moos",        "address": "Forsterstr. 57",      "city": "Los Angeles",   "state": "California",       "country": "USA",       "pinCode": "90001" },
+    { "id": 9,  "name": "Laurence Lebihan",  "address": "12 rue des Bouchers", "city": "San Francisco", "state": "California",       "country": "USA",       "pinCode": "94102" },
+    { "id": 10, "name": "Elizabeth Lincoln", "address": "23 Tsawassen Blvd.",  "city": "Toronto",       "state": "Ontario",          "country": "Canada",    "pinCode": "M5H 2N2" },
+    { "id": 11, "name": "Victoria Ashworth", "address": "Fauntleroy Circus",   "city": "Ottawa",        "state": "Ontario",          "country": "Canada",    "pinCode": "K1P 1J1" },
+    { "id": 12, "name": "Patricio Simpson",  "address": "Cerrito 333",         "city": "Vancouver",     "state": "British Columbia", "country": "Canada",    "pinCode": "V6B 1A1" },
+    { "id": 13, "name": "Yang Wang",         "address": "Hauptstr. 29",        "city": "Victoria",      "state": "British Columbia", "country": "Canada",    "pinCode": "V8W 1N4" },
+    { "id": 14, "name": "Pedro Afonso",      "address": "Av. dos Lusíadas 23", "city": "Sydney",        "state": "New South Wales",  "country": "Australia", "pinCode": "2000" },
+    { "id": 15, "name": "Liu Wong",          "address": "55 Grizzly Peak Rd.", "city": "Newcastle",     "state": "New South Wales",  "country": "Australia", "pinCode": "2300" },
+    { "id": 16, "name": "Helen Bennett",     "address": "Garden House 1",      "city": "Brisbane",      "state": "Queensland",       "country": "Australia", "pinCode": "4000" },
+    { "id": 17, "name": "Philip Cramer",     "address": "Maubelstr. 90",       "city": "Gold Coast",    "state": "Queensland",       "country": "Australia", "pinCode": "4217" }
+  ]
+}
